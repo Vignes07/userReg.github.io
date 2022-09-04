@@ -1,0 +1,10 @@
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td, th {
+    width: 10rem;
+    text-align: center;
+}
