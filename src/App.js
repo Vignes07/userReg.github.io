@@ -28,16 +28,6 @@ export class App extends React.Component {
   updateSubmit = (event, index) => {
     event.preventDefault();
     let data = [...this.state.data];
-    // if (this.state.fname) {
-    //   data[index].fname = this.state.fname;
-    // }
-    // if (this.state.lname) {
-    //   data[index].lname = this.state.lname;
-    // }
-    // if (this.state.fname && this.state.lname) {
-    //   data[index].fname = this.state.fname;
-    //   data[index].lname = this.state.lname;
-    // }
 
     data[index].fname = this.state.fname ? this.state.fname : data[index].fname;
     data[index].lname = this.state.lname ? this.state.lname : data[index].lname;
@@ -65,9 +55,7 @@ export class App extends React.Component {
     });
 
     this.setState({
-      data,
-      fname: "",
-      lname: "",
+      data: data,
       firstname: "",
       lastname: "",
     });

@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./remedit.css";
 
 export class RemEdit extends React.Component {
@@ -8,13 +9,13 @@ export class RemEdit extends React.Component {
         <input
           type="text"
           name="fname"
-          defaultValue={this.props.user.fname}
+          defaultValue={this.props.user.firstname}
           onChange={this.props.handleChange}
         />
         <input
           type="text"
           name="lname"
-          defaultValue={this.props.user.lname}
+          defaultValue={this.props.user.lastname}
           onChange={this.props.handleChange}
         />
         <button
