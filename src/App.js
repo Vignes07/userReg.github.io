@@ -55,7 +55,7 @@ export class App extends React.Component {
     });
 
     this.setState({
-      data: data,
+      data,
       firstname: "",
       lastname: "",
     });

@@ -9,13 +9,13 @@ export class RemEdit extends React.Component {
         <input
           type="text"
           name="fname"
-          defaultValue={this.props.user.firstname}
+          defaultValue={this.props.user.fname}
           onChange={this.props.handleChange}
         />
         <input
           type="text"
           name="lname"
-          defaultValue={this.props.user.lastname}
+          defaultValue={this.props.user.lname}
           onChange={this.props.handleChange}
         />
         <button
